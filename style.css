@@ -1,0 +1,28 @@
+h1 {
+    background: rgb(0, 126, 148);
+}
+
+.par1 {
+    background: violet;
+    color: grey;
+    font-size: 24p;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.par2 {
+    background: lightblue;
+    color:aqua;
+    font-size: 16;
+    font-family: 'Courier New';
+    font-weight: bold;
+    border: 10px solid yellowgreen;
+}
+
+.par3 {
+    font-style: italic;
+    font-size: 24px;
+    text-align: center;
+}
