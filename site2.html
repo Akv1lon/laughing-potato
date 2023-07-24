@@ -7,9 +7,21 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
       </head>
 <body>
-    <a href="site.html" target="_blank">Ссылка на fnaf fandom</a>
-
-    <form action="">
+    <!-- <a href="site.html" target="_blank">Ссылка на fnaf fandom</a> -->
+    
+    <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="https://jeka.by/upload/userfiles/1/images/img_developer/final-patch-prod.jpg">Активный (элемент)</a> <!-- да, лучше когда картинка в папке, но пока сойдет-->
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="site.html">Link to fnaf fandom (site1)</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Неактивный (Элемент)</a>
+        </li>
+      </ul>
+    
+      <form action="">
         <label for="f1" class="lead">Текст - </label>
         <input id="f1" type="text">
         <br>
@@ -24,7 +36,7 @@
         <br>
         <label class="lead">Многострочное текстовое поле - </label>
         <br>
-        <textarea class="form-control-sm" placeholder="Многа букав"></textarea>
+        <textarea class="form-control-sm" placeholder="Можно ввести текст"></textarea>
     </form>
 </body>
 </html>
